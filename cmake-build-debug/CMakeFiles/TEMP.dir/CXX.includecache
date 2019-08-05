@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lianhaocheng/CLionProjects/ACM/TempMain.cpp
+cstdio
+-
+cstring
+-
+cmath
+-
+iostream
+-
+string
+-
+vector
+-
+set
+-
+algorithm
+-
+
