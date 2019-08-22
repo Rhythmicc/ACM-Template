@@ -65,43 +65,6 @@ CMAKE_SOURCE_DIR = /Users/lianhaocheng/CLionProjects/ACM
 CMAKE_BINARY_DIR = /Users/lianhaocheng/CLionProjects/ACM/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/TEMP.dir
-
-# All Build rule for target.
-CMakeFiles/TEMP.dir/all:
-	$(MAKE) -f CMakeFiles/TEMP.dir/build.make CMakeFiles/TEMP.dir/depend
-	$(MAKE) -f CMakeFiles/TEMP.dir/build.make CMakeFiles/TEMP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/lianhaocheng/CLionProjects/ACM/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target TEMP"
-.PHONY : CMakeFiles/TEMP.dir/all
-
-# Include target in all.
-all: CMakeFiles/TEMP.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/TEMP.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lianhaocheng/CLionProjects/ACM/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TEMP.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/lianhaocheng/CLionProjects/ACM/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/TEMP.dir/rule
-
-# Convenience name for target.
-TEMP: CMakeFiles/TEMP.dir/rule
-
-.PHONY : TEMP
-
-# clean rule for target.
-CMakeFiles/TEMP.dir/clean:
-	$(MAKE) -f CMakeFiles/TEMP.dir/build.make CMakeFiles/TEMP.dir/clean
-.PHONY : CMakeFiles/TEMP.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/TEMP.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/ACM.dir
 
 # All Build rule for target.

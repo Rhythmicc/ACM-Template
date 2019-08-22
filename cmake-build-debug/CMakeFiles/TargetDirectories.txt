@@ -1,4 +1,3 @@
 /Users/lianhaocheng/CLionProjects/ACM/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/lianhaocheng/CLionProjects/ACM/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/lianhaocheng/CLionProjects/ACM/cmake-build-debug/CMakeFiles/TEMP.dir
 /Users/lianhaocheng/CLionProjects/ACM/cmake-build-debug/CMakeFiles/ACM.dir

@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TEMP
-
-# Build rule for target.
-TEMP: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TEMP
-.PHONY : TEMP
-
-# fast build rule for target.
-TEMP/fast:
-	$(MAKE) -f CMakeFiles/TEMP.dir/build.make CMakeFiles/TEMP.dir/build
-.PHONY : TEMP/fast
-
-#=============================================================================
 # Target rules for targets named ACM
 
 # Build rule for target.
@@ -135,33 +122,6 @@ ACM: cmake_check_build_system
 ACM/fast:
 	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/build
 .PHONY : ACM/fast
-
-TempMain.o: TempMain.cpp.o
-
-.PHONY : TempMain.o
-
-# target to build an object file
-TempMain.cpp.o:
-	$(MAKE) -f CMakeFiles/TEMP.dir/build.make CMakeFiles/TEMP.dir/TempMain.cpp.o
-.PHONY : TempMain.cpp.o
-
-TempMain.i: TempMain.cpp.i
-
-.PHONY : TempMain.i
-
-# target to preprocess a source file
-TempMain.cpp.i:
-	$(MAKE) -f CMakeFiles/TEMP.dir/build.make CMakeFiles/TEMP.dir/TempMain.cpp.i
-.PHONY : TempMain.cpp.i
-
-TempMain.s: TempMain.cpp.s
-
-.PHONY : TempMain.s
-
-# target to generate assembly for a file
-TempMain.cpp.s:
-	$(MAKE) -f CMakeFiles/TEMP.dir/build.make CMakeFiles/TEMP.dir/TempMain.cpp.s
-.PHONY : TempMain.cpp.s
 
 main.o: main.cpp.o
 
@@ -198,11 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... TEMP"
 	@echo "... ACM"
-	@echo "... TempMain.o"
-	@echo "... TempMain.i"
-	@echo "... TempMain.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

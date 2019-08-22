@@ -4,4 +4,3 @@ project(ACM)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(ACM main.cpp)
-add_executable(TEMP TempMain.cpp)
