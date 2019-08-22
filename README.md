@@ -2,6 +2,7 @@
 - View ./template/ to search algorithm.
 - Run:
 
+  - if your *OS* is *Windows*, then use `.\run.bat`
   - build and run: `./run.sh -br`
   - build but not run: `./run.sh -b`
   - just run: `./run.sh -r` or `./run.sh`
