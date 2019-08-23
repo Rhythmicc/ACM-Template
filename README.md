@@ -1,5 +1,5 @@
 # ACM Template
-- View ./template/ to search algorithm.
+- View `./template/` to search algorithm.
 - Run:
 
   - if your *OS* is *Windows*, then use `.\run.bat`
