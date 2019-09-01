@@ -20,11 +20,12 @@
 #include         <regex>
 #include        <random>
 
+
+typedef long long                               LL;
+typedef unsigned long long                     ULL;
 #define P(n, f)               cout<<n<<(f?'\n':' ')
 #define Po(n, f)               out<<n<<(f?'\n':' ')
 #define pi                            pair<int,int>
-#define LL                                long long
-#define ULL                      unsigned long long
 #define lowbit(x)                            x&(-x)
 #define mp                                make_pair
 #define elif                                else if
