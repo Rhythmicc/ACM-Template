@@ -5,7 +5,6 @@
   - 环境要求:
       - [x] `g++`
       - [x] `python3`
-          - [x] `difflib`
 
   - 编译或运行
   
@@ -32,6 +31,8 @@
 
 - 对拍器
 
+  - 环境要求:
+    - [x] `pip3 install difflib`
   - 运行: `python3 TextCmp.py` 来对两个文本进行对拍。结果存储在当前目录下的`./res.html`。
   - 如果脚本未能自动打开`./res.html`, 你可以用浏览器打开它。
   - ![GUI](./img/1.png)
