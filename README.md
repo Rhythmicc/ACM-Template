@@ -1,6 +1,6 @@
 # ACM Template
 - 在 `./template/` 寻找算法模板.
-- 运行脚本:
+## 运行脚本:
 
   - 环境要求:
       - [x] `g++`
@@ -25,11 +25,11 @@
       - `./run.py -i` : 使用默认输入文件并运行。
       - `./run.py`: 运行。
       - `./run.py -i -br` or `./run.py -br -i`: 编译且使用输入文件运行。
-- 刷新脚本:
+## 刷新脚本:
 
   - 运行 `./refresh.py` 来初始化 `main.cpp` 为存储在 `./template/main` 文件中的内容。
 
-- 对拍器
+## 对拍器
 
   - 环境要求:
     - [x] `pip3 install difflib`
