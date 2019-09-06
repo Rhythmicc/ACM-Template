@@ -12,12 +12,14 @@
       - [ -r ] : 运行
       - [ -br] : 编译且运行
       - ( 如果上述三个命令都不存在，则默认运行当前编译好的程序 )
+      - [ -f `*.c/*.cpp`] : 设置目标源文件
 
   - 输入输出:
       
-      - 运行 `./run.py [...] -i` 使程序使用`./cmake-build-debug/input.txt`作为输入
+      - 运行 `./run.py [...] -i` 使程序使用`./cmake-build-debug/input.txt`作为默认输入
       - 你可以编辑 `./cmake-build-debug/input.txt` 来设置输入
       - 运行 `./run.py [...] > output.txt` 使程序输出到 `./output.txt`
+      - [ -if `*` ] : 设置输入文件/缺省则使用默认输入
       
   - 推荐的命令示例:
       - `./run.py -i` : 使用默认输入文件并运行。

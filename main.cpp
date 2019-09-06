@@ -42,7 +42,9 @@ void init() {
 }
 
 void solve() {
-
+    string a;
+    cin>>a;
+    cout<<a;
 }
 
 int main() {
