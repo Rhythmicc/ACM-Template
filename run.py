@@ -14,7 +14,7 @@ def run(use_txt=False, executable_file=base_dir + 'cmake-build-debug' + dir_char
     cmd = executable_file + ' '
     if argv:
         cmd += ' '.join(argv)
-    cmd += (' < ' + inputfile if use_txt else '')
+    cmd += (' < ' + input_file if use_txt else '')
     os.system(cmd)
 
 
@@ -31,7 +31,7 @@ if __name__ == '__main__':
     to_run = '-r' in sys.argv or '-b' not in sys.argv
     filename = base_dir + 'main.c'
     flag = False
-    inputfile = base_dir + 'cmake-build-debug' + dir_char + 'input.txt'
+    input_file = base_dir + 'cmake-build-debug' + dir_char + 'input.txt'
     if '-h' in sys.argv:
         print(blue_col('usage: run.py:\n') +
               '  * ' + blue_col('build or run:\n') +
@@ -61,9 +61,9 @@ if __name__ == '__main__':
         index = sys.argv.index('-if')
         if index == len(sys.argv) - 1:
             print(red_col('ERROR: No file with -if'))
-        inputfile = sys.argv[index + 1]
-        if not os.path.exists(inputfile):
-            print(red_col('ERROR: No such file:%s' % inputfile))
+        input_file = sys.argv[index + 1]
+        if not os.path.exists(input_file):
+            print(red_col('ERROR: No such file:%s' % input_file))
             exit(-1)
     o_file = base_dir + 'cmake-build-debug' + dir_char + 'ACM'
     if to_build:
