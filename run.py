@@ -10,7 +10,7 @@ else:
 base_dir += dir_char
 
 config = {
-    'compile_tool': 'g++',
+    'compile_tool': 'g++ -std=c++11',
     'compile_filename': base_dir + 'main.cpp',
     'executable_filename': base_dir + 'cmake-build-debug' + dir_char + 'ACM',
     'input_file': base_dir + 'cmake-build-debug' + dir_char + 'input.txt'

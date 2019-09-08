@@ -42,7 +42,7 @@ void init() {
 }
 
 void solve() {
-
+    range(i,1,10)cout<<i<<'\n';
 }
 
 int main() {
