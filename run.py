@@ -2,6 +2,10 @@
 import os
 import sys
 
+"""
+1. 获取当前目录为base_dir
+2. 判断系统，使用不同的文件夹符号(dir_char)
+"""
 base_dir = sys.path[0]
 if sys.platform.startswith('win'):
     dir_char = '\\'
@@ -9,6 +13,9 @@ else:
     dir_char = '/'
 base_dir += dir_char
 
+"""
+默认参数表
+"""
 config = {
     'compile_tool': 'g++ -std=c++11',
     'compile_filename': base_dir + 'main.cpp',
