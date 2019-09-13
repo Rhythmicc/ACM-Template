@@ -13,3 +13,4 @@ if __name__ == '__main__':
         content = f.read()
     with open(base_dir + 'main.cpp', 'w') as f:
         f.write(content)
+

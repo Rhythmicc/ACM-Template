@@ -2,10 +2,18 @@
 import difflib
 import os
 import webbrowser as wb
-from run import base_dir
+import sys
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox
+
+
+base_dir = sys.path[0]
+if sys.platform.startswith('win'):
+    dir_char = '\\'
+else:
+    dir_char = '/'
+base_dir += dir_char
 
 
 def read_file(filename):
@@ -81,3 +89,4 @@ if __name__ == '__main__':
     tk.Button(win, text="路径选择", command=get_path3).grid(row=2, column=2)
     tk.Button(win, text="对比", command=cmp).grid(row=3, column=1)
     tk.mainloop()
+
