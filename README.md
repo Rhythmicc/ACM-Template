@@ -17,6 +17,10 @@
 
   - `pip3 install Qpro`: 使用Qpro，自动为你的CLionProjects配置下面的脚本。
   - [Qpro使用方法](https://pypi.org/project/Qpro/)
+  - 脚本问题与解决方案:
+      - Linux/Mac OS 下可能报错:
+        - `zsh: permission denied: *.py`
+        - 运行`chmod a+x *.py`即可。
 ## 运行脚本:
 
   - 编译或运行
@@ -54,6 +58,7 @@
       - `compile_filename` ：待编译的文件(默认main.cpp)
       - `executable_filename` ：编译出的可执行文件名(一般同项目名)
       - `input_file` ：默认的输入文件（一般设为`./cmake-build-debug/input.txt`）
+
 ## 刷新脚本:
 
   - 运行 `./refresh.py` 来初始化 `main.cpp` 为存储在 `./template/main` 文件中的内容。
