@@ -15,7 +15,7 @@
     
 - 关于脚本
 
-  - `pip3 install Qpro`: 实用Qpro为你的CLionProjects添加下面的脚本。
+  - `pip3 install Qpro`: 使用Qpro，自动为你的CLionProjects配置下面的脚本。
   - [Qpro使用方法](https://pypi.org/project/Qpro/)
 ## 运行脚本:
 
