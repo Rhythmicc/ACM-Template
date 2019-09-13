@@ -3,7 +3,16 @@
 
 - 环境要求:
   - [x] `gcc / g++`
+    
+    - Mac OS: `brew install gcc`, 一般系统内置gcc环境
+    - Windows:
+       - MinGw : [下载地址](https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/)
+       - CygWin: [下载地址](https://cygwin.com/setup-x86_64.exe)
+    - Linux: 参考[博客](https://blog.csdn.net/qq_33571814/article/details/82380215)
   - [x] `python3`
+    
+    - [下载地址](https://www.python.org/downloads/)
+    
 ## 运行脚本:
 
   - 编译或运行
