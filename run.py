@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import os
 import sys
+import pyperclip
 
 """
 1. 获取当前目录为base_dir
@@ -76,10 +77,15 @@ if __name__ == '__main__':
         index = sys.argv.index('-if')
         if index == len(sys.argv) - 1:
             print(red_col('ERROR: No file with -if'))
-        input_file = sys.argv[index + 1]
-        if not os.path.exists(input_file):
-            print(red_col('ERROR: No such file:%s' % input_file))
-            exit(-1)
+        tmp_file = sys.argv[index + 1]
+        if tmp_file == '-paste':
+            with open(base_dir+'cmake-build-debug' + dir_char + 'input.txt','w') as f:
+                f.write(pyperclip.paste())
+        else:
+            input_file = tmp_file
+            if not os.path.exists(input_file):
+                print(red_col('ERROR: No such file:%s' % input_file))
+                exit(-1)
     o_file = config['executable_filename']
     if to_build:
         if flag:

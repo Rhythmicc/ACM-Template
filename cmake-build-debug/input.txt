@@ -1,1 +1,8 @@
-edit this file to make input
+2
+10 2
+2 6
+4 8
+6 3
+1 1
+2 3
+3 4
