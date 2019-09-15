@@ -37,6 +37,7 @@
       - 你可以编辑 `./cmake-build-debug/input.txt` 来设置输入
       - 运行 `./run.py [...] > output.txt` 使程序输出到 `./output.txt`
       - [ -if `*` ] : 设置输入文件/缺省则使用默认输入
+      - [ -if -paste ] ：使用当前粘贴板内容作为输入
       
   - 程序的额外命令行参数:
   
