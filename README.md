@@ -1,4 +1,8 @@
 # ACM Template
+[![](https://img.shields.io/badge/Author-RhythmLian-blue)]()
+[![](https://img.shields.io/badge/License-MIT-yellow)]()
+
+## 关于项目
 - 在 `./template/` 寻找算法模板.
 
 - 环境要求:
