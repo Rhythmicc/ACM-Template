@@ -6,13 +6,25 @@
     
     - Mac OS: `brew install gcc`, 一般系统内置gcc环境
     - Windows:
-       - MinGw : [下载地址](https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/)
-       - CygWin: [下载地址](https://cygwin.com/setup-x86_64.exe)
-    - Linux: 参考[博客](https://blog.csdn.net/qq_33571814/article/details/82380215)
+      - MinGw : [下载地址](https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/)
+      - CygWin: [下载地址](https://cygwin.com/setup-x86_64.exe)
+    - Linux: 
+      - ubuntu: `sudo apt install gcc`
+      - CentOS: `sudo yum install gcc`  
   - [x] `python3`
     
-    - [下载地址](https://www.python.org/downloads/)
-    
+    - Windows:[下载地址](https://www.python.org/downloads/)
+    - MacOS: 
+      - [下载地址](https://www.python.org/ftp/python/3.7.4/python-3.7.4-macosx10.9.pkg)
+      - `brew install python3`
+    - Linux: 
+      ```shell script
+      wget https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tgz
+      tar -zxvf Python-3.7.4.tgz
+      cd Python-3.7.4
+      ./configure --prefix=/usr/local/python3
+      make && make install
+      ```
 - 关于脚本
 
   - `pip3 install Qpro`: 使用Qpro，自动为你的CLionProjects配置下面的脚本。
