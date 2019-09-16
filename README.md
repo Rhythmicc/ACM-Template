@@ -10,17 +10,23 @@
     
     - Mac OS: `brew install gcc`, 一般系统内置gcc环境
     - Windows:
-      - MinGw : [下载地址](https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/)
-      - CygWin: [下载地址](https://cygwin.com/setup-x86_64.exe)
+    
+      | MinGw | [下载地址](https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/) |
+      | :-----: | :-----: |
+      | CygWin | [下载地址](https://cygwin.com/setup-x86_64.exe) |
     - Linux: 
-      - ubuntu: `sudo apt install gcc`
-      - CentOS: `sudo yum install gcc`  
+    
+      | ubuntu | `sudo apt install gcc` |
+      | :-----: | :-----: |
+      | CentOS | `sudo yum install gcc` |  
   - [x] `python3`
     
     - Windows:[下载地址](https://www.python.org/downloads/)
     - MacOS: 
-      - [下载地址](https://www.python.org/ftp/python/3.7.4/python-3.7.4-macosx10.9.pkg)
-      - `brew install python3`
+    
+      | 安装包 | [下载地址](https://www.python.org/ftp/python/3.7.4/python-3.7.4-macosx10.9.pkg) |
+      | :-----: | :-----: |
+      | 命令 | `brew install python3` |
     - Linux: 
       ```shell script
       wget https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tgz
@@ -41,12 +47,15 @@
 
   - 编译或运行
   
-      - [ -b ] : 编译
-      - [ -r ] : 运行
-      - [ -br] : 编译且运行
-      - ( 如果上述三个命令都不存在，则默认运行当前编译好的程序 )
-      - [ -f `*.c/*.cpp`] : 设置目标源文件
+      | -b | 编译 |
+      | :-----: | :-----: |
+      | -r | 运行 |
+      | -br | 编译且运行 |
+      如果上述三个命令都不存在，则默认运行当前编译好的程序
 
+      | -f `*.c/*.cpp` | 设置目标源文件 |
+      | :-----: | :-----: |
+      
   - 输入输出:
       
       - 运行 `./run.py [...] -i` 使程序使用`./cmake-build-debug/input.txt`作为默认输入
@@ -71,10 +80,11 @@
   
   - 修改config字典来调整脚本默认配置
   
-      - `compile_tool` ：编译工具(gcc/g++/...)
-      - `compile_filename` ：待编译的文件(默认main.cpp)
-      - `executable_filename` ：编译出的可执行文件名(一般同项目名)
-      - `input_file` ：默认的输入文件（一般设为`./cmake-build-debug/input.txt`）
+      | `compile_tool` | 编译工具(gcc/g++/...) |
+      | :-----: | :-----: |
+      | `compile_filename` | 待编译的文件(默认main.cpp) |
+      | `executable_filename` | 编译出的可执行文件名(一般同项目名) |
+      | `input_file` | 默认的输入文件（一般设为`./cmake-build-debug/input.txt`）|
 
 ### 刷新脚本:
 
