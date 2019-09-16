@@ -35,14 +35,18 @@
       ./configure --prefix=/usr/local/python3
       make && make install
       ```
-## 关于脚本
+## 关于内置脚本
 
-  - `pip3 install Qpro`: 使用Qpro，自动为你的CLion Project配置下面的脚本。
-  - [Qpro使用方法](https://pypi.org/project/Qpro/)
+  - 使用Qpro，自动为你的CLion Project配置下面的脚本:
+  
+    | 安装 | `pip3 install Qpro` |
+    | :-----: | :-----: |
+    | 使用方法 | [Qpro使用方法](https://pypi.org/project/Qpro/) |
   - 脚本问题与解决方案:
-      - Linux/Mac OS 下可能报错:
-        - `zsh: permission denied: *.py`
-        - 运行`chmod a+x *.py`即可。
+  
+    | 问题 | 解决方案 |
+    | :-----: | :-----: |
+    | `zsh: permission denied: *.py` | `chmod a+x *.py` |
 ### 运行脚本:
 
   - 编译或运行
@@ -61,8 +65,11 @@
       - 运行 `./run.py [...] -i` 使程序使用`./cmake-build-debug/input.txt`作为默认输入
       - 你可以编辑 `./cmake-build-debug/input.txt` 来设置输入
       - 运行 `./run.py [...] > output.txt` 使程序输出到 `./output.txt`
-      - [ -if `*` ] : 设置输入文件/缺省则使用默认输入
-      - [ -if -paste ] ：使用当前粘贴板内容作为输入
+      
+      | 参数 | 效果 |
+      | :-----: | :-----: |
+      | -if `*` | 设置输入文件/缺省则使用默认输入 |
+      | -if -paste | 使用当前粘贴板内容作为输入 |
       
   - 程序的额外命令行参数:
   
@@ -74,9 +81,12 @@
       - ![help](./img/2.png) 
   
   - 推荐的命令示例:
-      - `./run.py -i` : 使用默认输入文件并运行。
-      - `./run.py`: 运行。
-      - `./run.py -i -br` or `./run.py -br -i`: 编译且使用输入文件运行。
+      
+      | 命令 | 效果 |
+      | :-----: | :-----: |
+      | `./run.py -i` | 使用默认输入文件并运行 |
+      | `./run.py`| 运行 |
+      | `./run.py -br -i` |  编译且使用输入文件运行 |
   
   - 修改config字典来调整脚本默认配置
   
