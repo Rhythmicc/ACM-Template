@@ -59,19 +59,19 @@
       
       如果上述三个命令都不存在，则默认运行当前编译好的程序
 
-      | -f `*.c/*.cpp` | 设置目标源文件 |
+      | -f `*.c` / `*.cpp` | 设置目标源文件 |
       | :----- | :----- |
       
   - 输入输出:
       
-      - 运行 `./run.py [...] -i` 使程序使用`./cmake-build-debug/input.txt`作为默认输入
-      - 你可以编辑 `./cmake-build-debug/input.txt` 来设置输入
+      - 可以编辑 `./cmake-build-debug/input.txt` 来设置默认输入
       - 运行 `./run.py [...] > output.txt` 使程序输出到 `./output.txt`
       
       | 参数 | 效果 |
       | :----- | :----- |
-      | -if `*` | 设置输入文件/缺省则使用默认输入 |
-      | -if -paste | 使用当前粘贴板内容作为输入 |
+      | -i | 使用`./cmake-build-debug/input.txt`作为输入 |
+      | -if `*.*` | 更改输入文件 |
+      | -if -paste | 使用粘贴板内容作为输入 |
       
   - 程序的额外命令行参数:
   
@@ -107,5 +107,4 @@
 
   - 运行: `python3 TextCmp.py` 来进行两个CPP运行结果的对拍，结果存储在当前目录下的`./res.html`。
   - 如果脚本未能自动打开`./res.html`, 你可以用浏览器打开它。
-  - ![GUI](./img/1.png)
- 
+  ![GUI](./img/1.png)
