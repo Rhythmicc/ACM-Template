@@ -18,7 +18,6 @@
 #include         <ctime>
 #include         <stack>
 #include         <regex>
-#include        <random>
 
 
 typedef long long                               LL;
@@ -28,7 +27,6 @@ typedef unsigned long long                     ULL;
 #define pi                            pair<int,int>
 #define lowbit(x)                            x&(-x)
 #define mp                                make_pair
-#define elif                                else if
 #define irange(i, arr)              for(auto&i:arr)
 #define range(i, a, b)       for(auto i=a;i<=b;++i)
 #define itrange(i, a, b)     for(auto i=a;i!=b;++i)
