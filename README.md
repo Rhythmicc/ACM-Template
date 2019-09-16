@@ -93,7 +93,7 @@
   
       | 键值 | 含义 | 默认 |
       | :-----: | :-----: | :-----: | 
-      | `compile_tool` | 编译工具 | (gcc/g++/...) |
+      | `compile_tool` | 编译工具 | gcc / g++ / ... |
       | `compile_filename` | 待编译的文件 | main.cpp/main.c |
       | `executable_filename` | 编译出的可执行文件名 | 项目名 |
       | `input_file` | 默认的输入文件 | `./cmake-build-debug/input.txt`）|
