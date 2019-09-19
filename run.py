@@ -5,8 +5,10 @@ import pyperclip
 
 base_dir = sys.path[0]
 if sys.platform.startswith('win'):
+    is_win = True
     dir_char = '\\'
 else:
+    is_win = False
     dir_char = '/'
 base_dir += dir_char
 
@@ -27,10 +29,14 @@ def run(use_txt=False, executable_file=config['executable_filename']):
 
 
 def red_col(string):
+    if is_win:
+        return string
     return '\033[1;31m' + string + '\033[0m'
 
 
 def blue_col(string):
+    if is_win:
+        return string
     return '\033[1;34m' + string + '\033[0m'
 
 
