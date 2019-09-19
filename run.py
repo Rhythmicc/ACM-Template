@@ -3,10 +3,6 @@ import os
 import sys
 import pyperclip
 
-"""
-1. 获取当前目录为base_dir
-2. 判断系统，使用不同的文件夹符号(dir_char)
-"""
 base_dir = sys.path[0]
 if sys.platform.startswith('win'):
     dir_char = '\\'
@@ -14,11 +10,8 @@ else:
     dir_char = '/'
 base_dir += dir_char
 
-"""
-默认参数表
-"""
 config = {
-    'compile_tool': 'g++ -std=c++11',
+    'compile_tool': ('g++ -std=c++11', ''),
     'compile_filename': base_dir + 'main.cpp',
     'executable_filename': base_dir + 'cmake-build-debug' + dir_char + 'ACM',
     'input_file': base_dir + 'cmake-build-debug' + dir_char + 'input.txt'
@@ -91,7 +84,7 @@ if __name__ == '__main__':
     if to_build:
         if flag:
             o_file = base_dir + filename.split(dir_char)[-1].split('.')[0]
-        os.system(config['compile_tool'] + ' ' + filename + ' -o ' + o_file)
+        os.system(config['compile_tool'][0] + ' ' + filename + ' -o ' + o_file + ' ' + config['compile_tool'][1])
     if to_run:
         argv = []
         add_flag = True
