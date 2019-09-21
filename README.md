@@ -8,7 +8,14 @@
 - 环境要求:
   - [x] `gcc / g++`
     
-    - Mac OS: `brew install gcc`, 一般系统内置gcc环境
+    - Mac OS: 
+        
+        - 安装homebrew: 
+            ```shell script
+            $ xcode-select --install
+            $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+            ```  
+        - 安装gcc: `brew install gcc`
     - Windows:
     
       | MinGw | [下载地址](https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/) |
