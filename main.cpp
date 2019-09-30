@@ -36,9 +36,7 @@ typedef unsigned long long                     ULL;
 using namespace std;
 
 void init() {
-    string fuck;
-    cin>>fuck;
-    cout<<fuck<<'\n';
+
 }
 
 void solve() {
