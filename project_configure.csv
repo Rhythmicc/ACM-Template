@@ -1,0 +1,5 @@
+compile_tool,g++ -std=c++11,
+compile_filename,main.cpp
+executable_filename,cmake-build-debug/ACM
+input_file,cmake-build-debug/input.txt
+template_file,template/main
