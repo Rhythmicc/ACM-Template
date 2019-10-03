@@ -4,14 +4,14 @@
 
 在 `./template/` 寻找算法模板.
 
+## [环境依赖](./template/环境.md)
+
 ## 关于内置CLion扩展工具
 
-  - 使用Qpro，自动为你的CLion Project配置下面的脚本:
-  
-    | 安装 | `pip3 install Qpro` |
-    | :-----: | :-----: |
-    | 使用方法 | [Qpro使用方法](https://pypi.org/project/Qpro/) |
+| 安装 | `pip3 install Qpro` |
+| :----- | :----- |
+| 使用方法 | [Qpro使用方法](https://pypi.org/project/Qpro/) |
 
 ## CLion下载与安装:
-  
+
   - 参考: [CLion安装和激活](https://docs.cupacm.com/tools/#关于toolbox)
