@@ -22,10 +22,8 @@
 
 typedef long long                               LL;
 typedef unsigned long long                     ULL;
-#define P(n, f)               cout<<n<<(f?'\n':' ')
-#define Po(n, f)               out<<n<<(f?'\n':' ')
 #define pi                            pair<int,int>
-#define lowbit(x)                            x&(-x)
+#define lowbit(x)                        (x)&(-(x))
 #define mp                                make_pair
 #define irange(i, arr)              for(auto&i:arr)
 #define range(i, a, b)       for(auto i=a;i<=b;++i)
@@ -34,16 +32,21 @@ typedef unsigned long long                     ULL;
 #define IOS ios::sync_with_stdio(false), cin.tie(0)
 #define fill(arr, tmp)  memset(arr,tmp,sizeof(arr))
 using namespace std;
+/// here to write const value like: const int mod = 1e9+7
 
-void init() {
+
+/// here to write data structure
+
+
+void init() { /// here to write init function
 
 }
 
-void solve() {
+void solve() { /// here to write main algorithm
 
 }
 
-int main() {
+int main(int argc, char**args) {
     IOS;
     init();
     solve();
