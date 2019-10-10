@@ -2,7 +2,7 @@
 [![](https://img.shields.io/badge/Author-RhythmLian-blue)]()
 [![](https://img.shields.io/badge/License-MIT-yellow)]()
 
-在 `./template/` 寻找算法模板.
+在 `./template/` 寻找算法模板，或在[CUP算法模板库](https://docs.cupacm.com)寻找算法模板。
 
 ## [环境依赖](./template/环境.md)
 
