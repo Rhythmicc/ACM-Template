@@ -91,3 +91,18 @@ void findfac(LL n){
 }
 /// __TEMPLATE__
 ```
+
+## 快速幂
+
+```c++
+template <class T>
+T quick_pow(T a, unsigned int n, int mod = 0) {
+    T res = 1;
+    while (n) {
+        if (n & 1)mod ? res = res * a % mod : res = res * a;
+        mod ? a = a * a % mod : a = a * a;
+        n >>= 1;
+    }
+    return res;
+}
+```
