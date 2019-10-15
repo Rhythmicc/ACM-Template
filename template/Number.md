@@ -1,4 +1,8 @@
+# 数论
+
 ## miller-rabin算法
+
+  - 可以调节`const int S=20;`来设置不同的精度.
 
 ```c++
 const int S=20;

@@ -4,7 +4,7 @@
 
 在 `./template/` 寻找算法模板，或在[CUP算法模板库](https://docs.cupacm.com)寻找算法模板。
 
-## [环境依赖](./template/环境.md)
+## [环境依赖](./template/README.md)
 
 ## 关于内置CLion扩展工具
 

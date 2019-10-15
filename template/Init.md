@@ -1,4 +1,102 @@
-# 超强输入输出挂!
+# 初始设置
+
+- 扩展工具
+    - **CLion项目扩展工具:** [Qpro](https://pypi.org/project/Qpro/)
+
+## 头文件及宏
+
+```c++
+#include      <iostream>
+#include       <iomanip>
+#include        <string>
+#include        <cstdio>
+#include         <cmath>
+#include       <cstring>
+#include     <algorithm>
+#include        <vector>
+#include         <queue>
+#include         <deque>
+#include          <list>
+#include           <map>
+#include <unordered_map>
+#include <unordered_set>
+#include           <set>
+#include        <bitset>
+#include       <fstream>
+#include         <ctime>
+#include         <stack>
+#include         <regex>
+
+
+typedef long long                               LL;
+typedef unsigned long long                     ULL;
+#define pi                            pair<int,int>
+#define lowbit(x)                        (x)&(-(x))
+#define mp                                make_pair
+#define irange(i, arr)              for(auto&i:arr)
+#define range(i, a, b)       for(auto i=a;i<=b;++i)
+#define itrange(i, a, b)     for(auto i=a;i!=b;++i)
+#define rerange(i, a, b)     for(auto i=a;i>=b;--i)
+#define IOS ios::sync_with_stdio(false), cin.tie(0)
+#define fill(arr, tmp)  memset(arr,tmp,sizeof(arr))
+using namespace std;
+/// here to write const value like: const int mod = 1e9+7
+
+
+/// __TEMPLATE__
+/// here to write data structure
+
+
+void init() { /// here to write init function
+
+}
+
+void solve() { /// here to write main algorithm
+
+}
+
+int main(int argc, char**args) {
+    IOS;
+    init();
+    solve();
+    return 0;
+}
+```
+
+## 读入挂
+
+```c++
+template <class T>
+inline bool Read(T &ret) {
+    char c;
+    int sgn;
+    if (c = getchar(), c == EOF) return 0; //EOF
+    while (c != '-' && (c < '0' || c > '9')) c = getchar();
+    sgn = (c == '-') ? -1 : 1;
+    ret = (c == '-') ? 0 : (c - '0');
+    while (c = getchar(), c >= '0' && c <= '9')
+        ret = ret * 10 + (c - '0');
+    ret *= sgn;
+    return 1;
+}
+/// __TEMPLATE__
+```
+
+## 输出挂
+
+```c++
+void Out(int a){
+    if(a < 0){
+        putchar('-');
+        a = -a;
+    }
+    if(a >= 10)Out(a / 10);
+    putchar(a % 10 + '0');
+}
+/// __TEMPLATE__
+```
+
+## 超强输入输出挂!
 
 ```c++
 namespace IO {
