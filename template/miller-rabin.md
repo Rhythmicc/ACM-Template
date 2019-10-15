@@ -1,17 +1,6 @@
 ## miller-rabin算法
 
-```objectivec
-#include <iostream>
-#include <string>
-#include <cstdio>
-#include <cmath>
-#include <cstring>
-#include <algorithm>
-#define range(i,a,b) for(int i=a;i<=b;++i)
-#define rerange(i,a,b) for(int i=a;i>=b;--i)
-#define LL long long
-#define fill(arr,tmp) memset(arr,tmp,sizeof(arr))
-using namespace std;
+```c++
 const int S=20;
 LL mult_mod(LL a,LL b,LL c){
 	a%=c;
@@ -96,18 +85,5 @@ void findfac(LL n){
 	findfac(p);
 	findfac(n/p);
 }
-int main(){
-	long long n;
-	while(scanf("%lld",&n)!=EOF){
-		tol=0;
-		/*
-		findfac(n);
-		for(int i=0;i<tol;++i)cout<<factor[i]<<" ";
-		printf("\n");
-		*/
-		if(Miller_Rabin(n))printf("Yes\n");
-		else printf("No\n");
-	}
-	return 0;
-}
+/// __TEMPLATE__
 ```

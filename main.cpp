@@ -35,6 +35,7 @@ using namespace std;
 /// here to write const value like: const int mod = 1e9+7
 
 
+/// __TEMPLATE__
 /// here to write data structure
 
 

@@ -1,7 +1,7 @@
 # 线段树
 
 ## 位线段树
-```objectivec
+```c++
 #include      <iostream>
 #include       <iomanip>
 #include        <string>
