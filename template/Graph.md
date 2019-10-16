@@ -39,5 +39,4 @@ struct GPPF{
         cout<<ans<<'\n';
     }
 }
-/// template
 ```

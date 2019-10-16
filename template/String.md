@@ -29,7 +29,6 @@ vector<int> KMP(char *T, char *P, int *f) {
     }
     return ans;
 }
-/// __TEMPLATE__
 ```
 
 ## 扩展KMP
@@ -72,5 +71,4 @@ void GetExtand(char *s, char *t, int *next) {
             extand[k] = L;
     }
 }
-/// __TEMPLATE__
 ```

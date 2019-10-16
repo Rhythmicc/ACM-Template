@@ -89,7 +89,6 @@ void findfac(LL n){
 	findfac(p);
 	findfac(n/p);
 }
-/// __TEMPLATE__
 ```
 
 ## 快速幂

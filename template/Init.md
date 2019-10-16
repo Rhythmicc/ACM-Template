@@ -79,7 +79,6 @@ inline bool Read(T &ret) {
     ret *= sgn;
     return 1;
 }
-/// __TEMPLATE__
 ```
 
 ## 输出挂
@@ -93,7 +92,6 @@ void Out(int a){
     if(a >= 10)Out(a / 10);
     putchar(a % 10 + '0');
 }
-/// __TEMPLATE__
 ```
 
 ## 超强输入输出挂!
@@ -415,5 +413,4 @@ namespace IO {
     static iofstream fin;
     static endln ln;
 }
-/// __TEMPLATE__
 ```
