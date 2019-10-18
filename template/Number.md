@@ -1,6 +1,6 @@
 # 数论
 
-## miller-rabin算法
+## 米勒拉宾
 
   - 可以调节`const int S=20;`来设置不同的精度.
 
@@ -103,5 +103,38 @@ T quick_pow(T a, unsigned int n, int mod = 0) {
         n >>= 1;
     }
     return res;
+}
+```
+
+## gcd
+
+```c++
+int gcd(int a,int b) {
+    return b ? gcd(b, a % b) : a;
+}
+```
+
+## exgcd
+
+```c++
+//拓展欧几里德求解ax+by=gcd(a,b)的一组解
+LL ex_gcd(LL a,LL b,LL &x,LL &y){
+    if (b==0) {
+        x=1,y=0;
+        return a;
+    }
+    else{
+        LL r=ex_gcd(b,a%b,y,x);
+        y-=x*(a/b);
+        return r;
+    }
+}
+//返回的bool值表示该方程是否有解
+bool linear_equation(int a,int b,int c,int &x,int &y){
+    int d=ex_gcd(a,b,x,y);
+    if (c%d) return false;
+    int k=c/d;
+    x*=k;y*=k;
+    return true;
 }
 ```

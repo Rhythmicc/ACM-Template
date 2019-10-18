@@ -1,1 +1,1 @@
-edit this file to make input
+20 0 15 5
