@@ -135,7 +135,9 @@ struct ACAutomata {
         int now = root;
         int res = 0;
         for (int i = 0; i < len; i++) {
-            now = nxt[now][idx(buf[i])];
+            int indx = idx(buf[i]);
+            if (indx < 0 or indx > 25)continue;
+            now = nxt[now][indx];
             int tmp = now;
             while (tmp != root) {
                 res += end[tmp];
