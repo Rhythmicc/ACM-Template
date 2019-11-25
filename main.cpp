@@ -38,7 +38,6 @@ using namespace std;
 /// __TEMPLATE__
 /// here to write data structure
 
-
 void init() { /// here to write init function
 
 }
