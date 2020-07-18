@@ -171,3 +171,23 @@ while(m--)
 }
 */
 ```
+
+## 单调栈
+
+```c++
+template <class T>
+stack<T> single_stack(vector<T>x) {
+    stack<T>res;
+    irange(i, x) {
+        if(res.empty() || res.top() >= i) res.push(i);
+        else {
+            while (!res.empty() && res.top() < i) {
+                res.pop();
+                /// here to write your update function
+            }
+            res.push(i);
+            /// here to write your update function
+        }
+    }
+}
+```

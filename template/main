@@ -32,12 +32,21 @@ typedef unsigned long long                     ULL;
 #define IOS ios::sync_with_stdio(false), cin.tie(0)
 #define fill(arr, tmp)  memset(arr,tmp,sizeof(arr))
 using namespace std;
+/**
+ * insert "__TMPM__" then use `tmpm` command to replace it with algorithm~
+ *
+ * if you want to add algorithm to template, you should insert "__TMPM_START__"
+ * before your algorithm, and insert "__TMPM_END__" after your algorithm, then
+ * use `tmpm -c <category> <algorithm>` to create `template/<category>.md` and
+ * insert <algorithm> to `template/<category>.md` or use `tmpm -a <category>
+ * <algorithm>` to just insert <algorithm> to `template/<category>.md`
+ */
+
 /// here to write const value like: const int mod = 1e9+7
 
 
-/// __TEMPLATE__
+/// __TMPM__
 /// here to write data structure
-
 
 void init() { /// here to write init function
 
