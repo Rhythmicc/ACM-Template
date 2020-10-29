@@ -20,8 +20,8 @@
 #include         <regex>
 
 
-typedef long long                               LL;
-typedef unsigned long long                     ULL;
+typedef long long                               ll;
+typedef unsigned long long                     ull;
 #define pi                            pair<int,int>
 #define lowbit(x)                        (x)&(-(x))
 #define mp                                make_pair
@@ -42,7 +42,7 @@ using namespace std;
  * <algorithm>` to just insert <algorithm> to `template/<category>.md`
  */
 
-/// here to write const value like: const int mod = 1e9+7
+/// here to write const value like: `const int mod = 1e9+7`
 
 
 /// __TMPM__

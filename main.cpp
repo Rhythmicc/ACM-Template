@@ -20,8 +20,8 @@
 #include         <regex>
 
 
-typedef long long                               LL;
-typedef unsigned long long                     ULL;
+typedef long long                               ll;
+typedef unsigned long long                     ull;
 #define pi                            pair<int,int>
 #define lowbit(x)                        (x)&(-(x))
 #define mp                                make_pair

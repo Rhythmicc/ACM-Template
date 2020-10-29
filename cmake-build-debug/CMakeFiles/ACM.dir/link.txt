@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/ACM.dir/main.cpp.o  -o ACM 
+/usr/local/bin/g++-9  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/qt/lib CMakeFiles/ACM.dir/main.cpp.o  -o ACM 
