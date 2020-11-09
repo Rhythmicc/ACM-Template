@@ -19,7 +19,7 @@
 #include         <stack>
 #include         <regex>
 
-
+//defines
 typedef long long                               ll;
 typedef unsigned long long                     ull;
 #define pi                            pair<int,int>
