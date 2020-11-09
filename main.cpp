@@ -19,7 +19,6 @@
 #include         <stack>
 #include         <regex>
 
-//defines
 typedef long long                               ll;
 typedef unsigned long long                     ull;
 #define pi                            pair<int,int>
@@ -41,7 +40,7 @@ using namespace std;
  * insert <algorithm> to `template/<category>.md` or use `tmpm -a <category>
  * <algorithm>` to just insert <algorithm> to `template/<category>.md`
  */
-
+/// end_defines
 /// here to write const value like: `const int mod = 1e9+7`
 
 
